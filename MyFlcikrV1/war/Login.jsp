@@ -41,35 +41,18 @@ body
 	      <!--Sidebar1 content-->
 	    </div>
 	    <div class="span4" style="padding-top:450px">
-	      	<h2 style="color:#FFFFFF">Welcome to MyFlickr</h2>
-			  <p style="font-size:20px;color:#FFFFFF">Explore a colorful life by photos</p>
+	    </div>
+	    <div class="span4" style="padding-top:420px">
+	      	<h2 class="text-info">Welcome to MyFlickr</h2>
+			  <h4 class="text-info"><b>Explore a colorful life by photos</b></h4>
 			  <p>
-			    <a class="btn btn-warning" href="Signup.jsp">
-			      Sign up for MyFlickr
+			    <a class="btn btn-warning" href="/signin">
+			    <i class="icon-envelope icon-white"></i>
+			      Sign in with Gmail
 			    </a>
 			  </p>
 	    </div>
-		<div class="span4" style="padding-top:450px">
-	      	<form class="form-horizontal" action="/signin" name="signinform" method="post" onsubmit="return validateForm1()">
-			  <div class="control-group">
-			    <label class="control-label" for="inputEmail">Email</label>
-			    <div class="controls">
-			      <input type="text" id="inputEmail" name="email" placeholder="Email">
-			    </div>
-			  </div>
-			  <div class="control-group">
-			    <label class="control-label" for="inputPassword">Password</label>
-			    <div class="controls">
-			      <input type="password" id="inputPassword" name="password" placeholder="Password">
-			    </div>
-			  </div>
-			  <div class="control-group">
-			    <div class="controls">
-			      <button type="submit" class="btn btn-primary">Sign in</button>
-			    </div>
-			  </div>
-			</form>
-	    </div>
+		
 		<div class="span2">
 	      <!--Sidebar2 content-->
 	    </div>
